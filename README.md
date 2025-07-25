@@ -41,8 +41,6 @@ This is a simple real-time face detection app that uses your webcam to detect fa
 ### 6.The result (with face boxes) is displayed on the web page.
 
 ---
-## 📁 Project Structure
-
 face-detection/
 │
 ├── static/
