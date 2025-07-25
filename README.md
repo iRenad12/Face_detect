@@ -41,15 +41,3 @@ This is a simple real-time face detection app that uses your webcam to detect fa
 ### 6.The result (with face boxes) is displayed on the web page.
 
 ---
-face-detection/
-│
-├── static/
-│   └── script.js                      # JavaScript for webcam and frame sending
-│
-├── templates/
-│   └── index.html                     # Front-end HTML page
-│
-├── app.py                             # Flask backend with face detection logic
-├── haarcascade_frontalface_default.xml  # Pretrained face detection model (Haar Cascade)
-├── requirements.txt                   # List of Python dependencies
-└── README.md                          # Project documentation (you are reading it)
