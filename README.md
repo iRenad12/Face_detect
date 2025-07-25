@@ -28,10 +28,10 @@ This project demonstrates a simple real-time **face detection** system using Pyt
 ---
 
 ### 📁 File Structure
-```
-├── face1_detect.py                     # Main script for face detection
+
+├── face1_detect.py              # Main script for face detection
 ├── haarcascade_frontalface_default.xml # Haar cascade classifier data file
-```
+
 
 ---
 
