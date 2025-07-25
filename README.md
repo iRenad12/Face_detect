@@ -27,6 +27,27 @@ This project demonstrates a simple real-time **face detection** system using Pyt
 
 ---
 
+### 🖥️ Development Environment
+- **Python**: Version 3.x
+- **Anaconda**: Used to manage the Python environment and packages
+- **OpenCV**: Library used for face detection and image processing
+- **Visual Studio Code**: Used as the code editor and execution environment
+
+---
+
+### 🐍 Using Anaconda (Recommended)
+You can set up a virtual environment using Anaconda with the following steps:
+
+```bash
+conda create -n face_env python=3.10
+conda activate face_env
+conda install -c conda-forge opencv
+```
+
+After installing the dependencies, open the project in **Visual Studio Code**, activate the environment, and run the script.
+
+---
+
 ### 📁 File Structure
 ```
 ├── face1_detect.py                     # Main script for face detection
@@ -35,26 +56,18 @@ This project demonstrates a simple real-time **face detection** system using Pyt
 
 ---
 
-### 🛠️ Requirements
-- Python 3.x
-- OpenCV (`cv2`)
-
-You can install OpenCV using pip:
-```bash
-pip install opencv-python
-```
-
----
-
-### ▶️ How to Run
-Make sure both `face1_detect.py` and `haarcascade_frontalface_default.xml` are in the same directory.
-
-Then run:
-```bash
-python face1_detect.py
-```
-
-Press `q` to exit the video feed window.
+### ▶️ How to Run the Project
+1. Ensure that both `face1_detect.py` and `haarcascade_frontalface_default.xml` are in the same directory.
+2. Activate the Anaconda environment if not already:
+   ```bash
+   conda activate face_env
+   ```
+3. Run the script using VS Code terminal or Anaconda Prompt:
+   ```bash
+   python face1_detect.py
+   ```
+4. A window will open showing the webcam feed with rectangles around detected faces.
+5. Press `q` to close the window and stop the program.
 
 ---
 
@@ -64,11 +77,13 @@ Press `q` to exit the video feed window.
 ---
 
 ### ✅ Use Cases
-- Basic facial detection for learning computer vision.
-- Can be extended to emotion detection, face recognition, attendance systems, etc.
+- Educational purposes to learn computer vision basics
+- Foundation for face recognition or attendance systems
+- Can be expanded into emotion detection, object tracking, and more
 
 ---
 
 ### 📌 Notes
-- Ensure the lighting is good for better face detection accuracy.
-- Haar cascades work well for frontal faces but may miss side or occluded faces.
+- Good lighting improves detection accuracy.
+- Haar cascades are optimized for frontal face detection only.
+
