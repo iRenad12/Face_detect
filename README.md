@@ -35,7 +35,7 @@ This project demonstrates a simple real-time **face detection** system using Pyt
 
 ---
 
-### 🐍 Using Anaconda (Recommended)
+### 🐍 Using Anaconda 
 You can set up a virtual environment using Anaconda with the following steps:
 
 ```bash
