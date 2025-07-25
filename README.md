@@ -42,7 +42,6 @@ This is a simple real-time face detection app that uses your webcam to detect fa
 
 ---
 ## 📁 Project Structure
-
 face-detection/
 │
 ├── static/
@@ -55,6 +54,3 @@ face-detection/
 ├── haarcascade_frontalface_default.xml  # Face detection model
 ├── requirements.txt            # Python dependencies
 └── README.md                   # Project documentation
-
-
-
